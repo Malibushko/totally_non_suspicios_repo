@@ -9,7 +9,7 @@ ApplicationWindow {
     height: Screen.desktopAvailableHeight * 0.75
     visible: true
     title: qsTr("Testovoe dlya luxoft")
-
+    // just random number
     property var generatedContactsNum: 125
 
     AppSettings {
@@ -21,7 +21,6 @@ ApplicationWindow {
     ContactListModel {
                 id: contactsModel
                 Component.onCompleted: {
-                    // just random number
                     setModel(contactsProvider.generateContacts(generatedContactsNum));
                 }
     }

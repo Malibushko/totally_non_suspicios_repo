@@ -27,15 +27,16 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt5 COMPONENTS Core Quick REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core Quick REQUIRED)
 
-set (PROJECT_HEADERS utility.h
-                     contactlistmodel.h
-                     contactlistprovider.h
-                     filterproxymodel.h)
+set (SOURCES_ROOT ${CMAKE_SOURCE_DIR}/src)
+set (PROJECT_HEADERS ${SOURCES_ROOT}/utility.h
+                     ${SOURCES_ROOT}/contactlistmodel.h
+                     ${SOURCES_ROOT}/contactlistprovider.h
+                     ${SOURCES_ROOT}/filterproxymodel.h)
 set(PROJECT_SOURCES
-        contactlistmodel.cpp
-        contactlistprovider.cpp
-        filterproxymodel.cpp
-        main.cpp
+        ${SOURCES_ROOT}/contactlistmodel.cpp
+        ${SOURCES_ROOT}/contactlistprovider.cpp
+        ${SOURCES_ROOT}/filterproxymodel.cpp
+        ${SOURCES_ROOT}/main.cpp
         qml.qrc
 )
 

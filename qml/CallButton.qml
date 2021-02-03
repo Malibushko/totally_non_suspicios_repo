@@ -11,7 +11,7 @@ Button {
     hoverEnabled: true
     scale: hovered ? settings.iconSizeHovered : settings.iconSizeDefault
 
-    icon.source: "qrc:/resource/phone.png"
+    icon.source: "qrc:/qml/resource/phone.png"
     icon.width: parent.height
     icon.height: parent.height
     icon.color: Material.color(Material.Green)

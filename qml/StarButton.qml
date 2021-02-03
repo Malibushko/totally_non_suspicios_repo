@@ -8,9 +8,9 @@ Button {
 
     icon.source: {
         if (!model.Favourite)
-            return "qrc:/resource/star.png"
+            return "qrc:/qml/resource/star.png"
         else
-            return "qrc:/resource/star_starred.png"
+            return "qrc:/qml/resource/star_starred.png"
     }
     icon.width: parent.height
     icon.height: parent.height

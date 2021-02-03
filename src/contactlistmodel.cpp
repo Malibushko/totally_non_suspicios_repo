@@ -78,6 +78,6 @@ void ContactListModel::maskAsFavourite(int id, bool isFavourite) {
     if (iter != m_contacts.end()) {
         iter->isFavourite = isFavourite;
         int index = std::distance(m_contacts.begin(),iter);
-        emit dataChanged(createIndex(index,1),createIndex(index+1,1),{static_cast<int>(CONTACT_ROLES::IsFavourite)});
+        emit dataChanged(createIndex(index,0),createIndex(index,0),{static_cast<int>(CONTACT_ROLES::IsFavourite)});
     }
 }

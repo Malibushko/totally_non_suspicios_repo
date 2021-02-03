@@ -36,6 +36,13 @@ cmake --build .
 
 To change number of generated contacts you should use `generatedContactsNum` variable in  `main.qml` (line 13)
 
+## Screenshots
+
+![Default View](/screenshots/github_1.png)
+![Grid View and filter](/screenshots/github_2.png)
+![Text filter](/screenshots/github_3.png)
+
+
 ## License
 
 MIT

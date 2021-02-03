@@ -10,6 +10,8 @@ ApplicationWindow {
     visible: true
     title: qsTr("Testovoe dlya luxoft")
 
+    property var generatedContactsNum: 125
+
     AppSettings {
         id: settings
     }
@@ -20,7 +22,7 @@ ApplicationWindow {
                 id: contactsModel
                 Component.onCompleted: {
                     // just random number
-                    setModel(contactsProvider.generateContacts(125));
+                    setModel(contactsProvider.generateContacts(generatedContactsNum));
                 }
     }
     FilterProxyModel {

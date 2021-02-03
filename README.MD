@@ -5,12 +5,12 @@ It's nothing.
 ## Absolutely NOT some technical task  
 
 Additional “nice to have” features (evaluate by yourself how many features possible to implement)  
-• ~~ Circle contact list pictures at the left side, you may use any available image assets ~~  
-• ~~ Call function: by tap you call ContactListProvider::call(id) and indicate somehow active call ~~  
-• ~~ Grid view switcher for our contact viewer (here contact pictures “must have”) ~~  
+• ~~Circle contact list pictures at the left side, you may use any available image assets~~
+• ~~Call function: by tap you call ContactListProvider::call(id) and indicate somehow active call~~  
+• ~~Grid view switcher for our contact viewer (here contact pictures “must have”)~~  
 • Smart chunk-retrieving for long lists (e.g ContactListProvider has getChunk(index, size))  
-• ~~ Favorites: possibility to add to favorites (use star/plus button) and show only favorites ~~  
-• ~~ Local filter: text field by using which we may filter out contacts (great if “on the fly”) ~~  
+• ~~Favorites: possibility to add to favorites (use star/plus button) and show only favorites~~  
+• ~~Local filter: text field by using which we may filter out contacts (great if “on the fly”)~~  
 • Alphabetical jump: service provides getAvailableLetters chars and sorted contact list  
 • Expert level: combine alphabetical jump with previously described chunk retrieving  
 
